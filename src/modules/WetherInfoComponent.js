@@ -112,7 +112,7 @@ const WetherComponent = (props)=>{
             <WetherIcon src={iconAddress} />
         </WetherInfo>
         <Location>{wether.name}</Location>
-        <WetherInfoLabel>Wether info</WetherInfoLabel>
+        <WetherInfoLabel>Weather info</WetherInfoLabel>
         <DataContainer>
             <WetherInfoComponent name= {isDay? "Sunset":"Sunrise"} value={`${getTime(wether?.sys[isDay ? "sunset" : "sunrise"])}`} />
             <WetherInfoComponent name="Humidity" value={wether.main.humidity+" %"} />

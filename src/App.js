@@ -48,7 +48,7 @@ function App() {
 
   return (
     <Container>
-      <AppLable>wether app</AppLable>
+      <AppLable>weather app</AppLable>
       {wether? <WetherComponent wether={wether} /> : 
       <CityComponent updateCity={updateCity} fetchWether={fetchWether} />
       }
