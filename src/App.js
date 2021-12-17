@@ -22,6 +22,7 @@ const Container = styled.div`
   width:400px;
   background:white;
   font-family:Roboto Mono;
+  background-color:#e3e3e3
 `;
 
 const AppLable=styled.div`
